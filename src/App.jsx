@@ -5,8 +5,8 @@ export const App = () => {
   return (
     <div>
     <RandomNumber
-      title="Returns a random integer from 0 to 10: "
-      number={Math.floor(Math.random() * 11)}
+      min={ 0 }
+      max={ 10 }
     />
     </div>
   )
