@@ -1,8 +1,7 @@
 import React from 'react'
 
 export const RandomNumber = (props) => {
-  const min = props.min
-  const max = props.max
+  const { min, max } = props
   const random = Math.floor(Math.random() * (max - min)) + min
 
   return (
