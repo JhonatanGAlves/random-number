@@ -1,0 +1,13 @@
+body {
+    font-family: Oswald;
+    height: 100vh;
+    background-color: rgb(226, 226, 226);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2, h3 {
+    font-weight: 300;
+}
